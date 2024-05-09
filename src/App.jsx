@@ -1,8 +1,13 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <>
-      <h1 className=" bg-slate-500">Hello Afro World</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
