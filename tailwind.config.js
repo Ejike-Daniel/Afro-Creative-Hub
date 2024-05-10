@@ -15,6 +15,11 @@ export default {
         sunriseOrange: "#EB664E",
         earlyDawn: "#FFFAE1",
       },
+      fontFamily: {
+        Abhaya: "Abhaya Libre",
+        roboto: "Roboto",
+        poppins: "Poppins",
+      },
     },
   },
   plugins: [],
