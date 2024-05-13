@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navlist from "./Navlist";
 import { RiMenu4Fill, RiCloseLine } from "react-icons/ri";
 import { useState } from "react";
+import ContactLink from "./ContactLink";
 
 const Header = () => {
   const [isHidden, setIsHidden] = useState(true);
@@ -20,6 +21,9 @@ const Header = () => {
       <button className="text-3xl md:hidden" onClick={toggleMenu}>
         {isHidden ? <RiMenu4Fill /> : <RiCloseLine />}
       </button>
+      <div className={"hidden md:block"}>
+        <ContactLink />
+      </div>
     </header>
   );
 };
