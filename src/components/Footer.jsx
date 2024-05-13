@@ -15,14 +15,14 @@ const Footer = () => {
         <p className=" font-roboto text-[14px] text-mountainMist text-center uppercase tracking-wide">
           upskill for a better future
         </p>
-        <p className=" font-Abhaya font-bold text-2xl lg:text-4xl text-midnight">
+        <p className=" font-Abhaya font-bold text-2xl md:text-3xl lg:text-4xl text-midnight">
           Request More Information
         </p>
         <Link to={"contact"} className="flex items-center justify-center">
-          <Button className={"w-42 font-medium shadow-lg "}>Contact Us</Button>
+          <Button className={" font-medium shadow-lg "}>Contact Us</Button>
         </Link>
 
-        <span className="text-center text-sm font-semibold text-midnight">
+        <span className="text-center text-sm font-bold text-midnight italic">
           &copy;2024 Afro Creative Hub
         </span>
       </section>
