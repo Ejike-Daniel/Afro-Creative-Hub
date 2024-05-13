@@ -1,11 +1,7 @@
 import Container from "../../components/Container";
 
 const About = () => {
-  return <div className=" bg-ragoonGreen w-full h-screen">
-    <Container>
-      
-    </Container>
-  </div>;
+  return <Container></Container>;
 };
 
 export default About;
