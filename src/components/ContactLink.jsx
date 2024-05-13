@@ -1,16 +1,18 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const ContactLink = () => {
   return (
     <div>
-      <Link
+      <NavLink
         to="/contact"
-        className={
-          "bg-lightTan text-midnight px-6 py-3 md:py-10 lg:py-[2.35rem] whitespace-nowrap font-medium "
+        className={({ isActive }) =>
+          isActive
+            ? " bg-duckyYellow text-midnight  px-6 py-3 md:py-10 lg:py-[2.35rem] whitespace-nowrap font-medium"
+            : "bg-lightTan text-midnight px-6 py-3 md:py-10 lg:py-[2.35rem] whitespace-nowrap font-medium "
         }
       >
         Contact Us
-      </Link>
+      </NavLink>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Navlist = ({ hideNav }) => {
     <nav
       className={`${
         hideNav ? "hidden" : ""
-      } absolute md:static md:block md:mx-0 top-24 gap-12 shadow-lg md:shadow-none right-0 left-0 flex justify-center z-20 w-full items-center py-10     bg-white md:bg-transparent transition-all duration-500 transform origin-bottom `}
+      } absolute md:static md:block md:mx-0 top-24 gap-12 shadow-lg md:shadow-none right-0 left-0 flex justify-center z-20 w-full items-center py-10 bg-white md:bg-transparent transition-all duration-500 transform origin-bottom `}
     >
       <ul className="flex flex-col gap-12 md:flex-row justify-center items-center font-medium text-mountainMist ">
         {navlinks.map(({ name, path }, index) => (
@@ -20,7 +20,9 @@ const Navlist = ({ hideNav }) => {
             <NavLink
               to={path}
               className={({ isActive }) =>
-                isActive ? " border-b-2 border-red-400 pb-2 text-red-600" : " hover:text-midnight"
+                isActive
+                  ? " md:bg-lightTan text-midnight px-6  md:py-10 lg:py-[2.35rem]"
+                  : " hover:text-midnight"
               }
             >
               {name}
