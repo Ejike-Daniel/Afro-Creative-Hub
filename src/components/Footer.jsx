@@ -15,7 +15,7 @@ const Footer = () => {
         <p className=" font-roboto text-[14px] text-mountainMist text-center uppercase tracking-wide">
           upskill for a better future
         </p>
-        <p className=" font-Abhaya font-bold text-3xl md:text-4xl  text-midnight">
+        <p className=" font-Abhaya font-bold  text-2xl md:text-4xl  text-midnight">
           Request More Information
         </p>
         <Link to={"contact"} className="flex items-center justify-center">
