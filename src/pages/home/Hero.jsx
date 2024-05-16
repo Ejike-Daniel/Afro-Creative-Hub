@@ -3,9 +3,9 @@ import SearchBar from "../../components/SearchBar";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-heroBg2 bg-cover bg-no-repeat pt-16 py-16 bg-duckyYellow    flex justify-center flex-col">
-      <div className=" flex flex-col justify-center items-center gap-6 py-3 md:py-16 font-poppins ">
-        <h1 className=" text-4xl md:text-6xl font-bold text-center pb-8   ">
+    <section className="w-full bg-he bg-cover bg-no-repeat pt-16 py-16 bg-duckyYellow  flex justify-center flex-col">
+      <div className=" flex flex-col justify-center items-center gap-6 py-3 md:py-10 font-poppins ">
+        <h1 className=" text-4xl md:text-6xl font-bold text-center pb-8 ">
           Connect With <br />
           <span className="text-earlyDawn pb-6">Creative Minds</span>
           <br /> <span>Afro Creative Hub</span>
@@ -15,7 +15,7 @@ const Hero = () => {
           creative <br />
           world from discovering inspiration, to connecting with one another.
         </p>
-        <Button className={'mb-7'}>Hire a Freelancer</Button>
+        <Button className={"mb-7 bg-tealishGreen"}>Hire a Freelancer</Button>
       </div>
       <SearchBar />
     </section>
