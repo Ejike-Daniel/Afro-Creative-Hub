@@ -14,11 +14,18 @@ export default {
         lightTan: "#FBEC9D",
         sunriseOrange: "#EB664E",
         earlyDawn: "#FFFAE1",
+        blackCow: "#4A4343",
       },
       fontFamily: {
         Abhaya: "Abhaya Libre",
         roboto: "Roboto",
         poppins: "Poppins",
+      },
+      backgroundImage: {
+        heroBg: `url('./assets/bro.png')`,
+        heroBg2: `url('./assets/pana.png')`,
+        ellipse3: `url('./assets/Ellipse3.png)`,
+        ellipse4: `url('./assets/Ellipse4.png)`,
       },
     },
   },
