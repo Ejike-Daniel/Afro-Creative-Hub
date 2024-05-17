@@ -1,9 +1,15 @@
 import Button from "../../components/Button";
 import SearchBar from "../../components/SearchBar";
+import broImg from "../../assets/bro.png";
+import panaImg from "../../assets/pana.png";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-he bg-cover bg-no-repeat pt-16 py-16 bg-duckyYellow  flex justify-center flex-col">
+    <section className="w-full pt-16 py-20 bg-duckyYellow  flex justify-center flex-col relative ">
+      <div className="w-[25%] absolute top-14 left-0">
+        <img src={broImg} alt={broImg} className=" hidden lg:block  " />
+      </div>
+
       <div className=" flex flex-col justify-center items-center gap-6 py-3 md:py-10 font-poppins ">
         <h1 className=" text-4xl md:text-6xl font-bold text-center pb-8 ">
           Connect With <br />
@@ -17,6 +23,10 @@ const Hero = () => {
         </p>
         <Button className={"mb-7 bg-tealishGreen"}>Hire a Freelancer</Button>
       </div>
+      <div className="w-[25%] absolute bottom-2 right-0 ">
+        <img src={panaImg} alt={panaImg} className=" hidden lg:block  " />
+      </div>
+
       <SearchBar />
     </section>
   );
