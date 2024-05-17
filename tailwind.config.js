@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -20,6 +21,13 @@ export default {
         roboto: "Roboto",
         poppins: "Poppins",
       },
+
+      backgroundImage:{
+        "tealrectangle": "url('/src/assets/Rectangle.png')",
+        "bgmixedright": "url('/src/assets/Bgmixedright.png')",
+        "bgmixedleft": "url('/src/assets/Bgmixedleft.png')",
+      }
+
     },
   },
   plugins: [],
