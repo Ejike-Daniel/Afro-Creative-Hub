@@ -25,8 +25,7 @@ export default {
       backgroundImage: {
         heroBg: `url('./assets/bro.png')`,
         heroBg2: `url('./assets/pana.png')`,
-        ellipse3: `url('./assets/Ellipse3.png)`,
-        ellipse4: `url('./assets/Ellipse4.png)`,
+        bgImg: `url('./assets/Group.png')`,
       },
     },
   },

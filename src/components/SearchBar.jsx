@@ -1,7 +1,7 @@
 import { IoSearchSharp } from "react-icons/io5";
 const SearchBar = () => {
   return (
-    <form className="w-[70%] mx-auto" >
+    <form className="w-[80%] mx-auto" >
       <div className="relative flex items-center w-full">
         <IoSearchSharp
           className={
