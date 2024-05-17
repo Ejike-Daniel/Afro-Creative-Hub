@@ -16,7 +16,7 @@ const AboutHero = () => {
           the oil and petrochemical indusrty.
         </p>
         <Link to={"/"}>
-          <button className=" px-8 py-3 rounded-md font-medium  bg-earlyDawn lg:hover:bg-duckyYellow text-midnight">
+          <button className=" transition-all duration-300 ease-in-out px-8 py-3 rounded-md font-medium  bg-earlyDawn lg:hover:bg-duckyYellow text-midnight">
             Explore
           </button>
         </Link>
