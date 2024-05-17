@@ -10,7 +10,7 @@ import Button from "./Button";
 
 const Footer = () => {
   return (
-    <footer className=" flex flex-col-reverse lg:flex-col items-center py-8 gap-8 sha">
+    <footer className=" flex flex-col-reverse lg:flex-col items-center py-8 gap-8 border-t-2 shadow-2xl shadow-ragoonGreen ">
       <section className=" flex flex-col  gap-3">
         <p className=" font-roboto text-[14px] text-mountainMist text-center uppercase tracking-wide">
           upskill for a better future
@@ -18,7 +18,7 @@ const Footer = () => {
         <p className=" font-Abhaya font-bold  text-2xl md:text-4xl  text-midnight">
           Request More Information
         </p>
-        <Link to={"contact"} className="flex items-center justify-center">
+        <Link to={"/contact"} className="flex items-center justify-center">
           <Button className={" font-medium shadow-lg bg-tealishGreen "}>Contact Us</Button>
         </Link>
 

@@ -15,6 +15,7 @@ export default {
         sunriseOrange: "#EB664E",
         earlyDawn: "#FFFAE1",
         blackCow: "#4A4343",
+        seaShell: "#F0F0F0",
       },
       fontFamily: {
         Abhaya: "Abhaya Libre",

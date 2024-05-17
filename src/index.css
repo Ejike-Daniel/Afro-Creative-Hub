@@ -6,11 +6,12 @@
 
 
 
-@layer components{
-    .heroBg{
-        @apply   w-[100%] h-[50%] bg-no-repeat bg-contain bg-left
+@layer components {
+    .heroBg {
+        @apply w-[100%] h-[50%] bg-no-repeat bg-contain bg-left
     }
-    .heroBg2{
+
+    .heroBg2 {
         @apply absolute right-0 bottom-[80px] z-[-1] w-[100%] h-[75%] bg-no-repeat
     }
 }
