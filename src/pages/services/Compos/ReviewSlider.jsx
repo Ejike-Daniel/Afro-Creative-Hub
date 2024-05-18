@@ -19,8 +19,6 @@ import { useState } from "react";
 const ReviewSlider = () => {
   const [revPerPage, setRevPerPage] = useState(1);
 
- 
-
   return (
     <section>
       <Swiper
@@ -34,7 +32,7 @@ const ReviewSlider = () => {
         }}
         pagination={{ clickable: true }}
       >
-        {data.map(({ context, name, position }, index) => (
+        {data.map(({ context, name, position, rating }, index) => (
           <SwiperSlide
             key={index}
             className="flex flex-col-reverse lg:flex-row items-center gap-7"
@@ -44,10 +42,24 @@ const ReviewSlider = () => {
             </div>
             <div>
               <div className="flex flex-col gap-5 w-full ">
-                <FaStar className={"text-duckyYellow text-3xl outline-none"} />
+                <div className="flex">
+                  {Array.from({ length: 5 }, (_, i) => (
+                    <FaStar
+                      key={i}
+                      className={
+                        i < rating
+                          ? "text-duckyYellow text-3xl outline-none"
+                          : "text-smokeyGrey text-3xl outline-none"
+                      }
+                    />
+                  ))}
+                </div>
+
                 <div className="flex flex-col gap-2 lg:pb-20">
                   <span className="font-medium text-2xl">{name}</span>
-                  <span className="font-thin text-center lg:text-left">{position}</span>
+                  <span className="font-thin text-center lg:text-left">
+                    {position}
+                  </span>
                 </div>
               </div>
             </div>
