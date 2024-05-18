@@ -7,11 +7,26 @@
 
 
 @layer components {
-    .heroBg {
-        @apply w-[100%] h-[50%] bg-no-repeat bg-contain bg-left
+    .mySwiper {
+        @apply relative pb-8;
+        /* Add extra space at the bottom for pagination */
     }
 
-    .heroBg2 {
-        @apply absolute right-0 bottom-[80px] z-[-1] w-[100%] h-[75%] bg-no-repeat
+    .swiper-pagination-custom {
+        @apply absolute bottom-2 left-1/2 transform -translate-x-1/2 flex justify-center gap-2;
+        /* Positioning and spacing */
     }
+
+    .swiper-pagination-custom .swiper-pagination-bullet {
+        @apply w-3 h-3 bg-black opacity-70 rounded-full;
+        /* Default bullet style */
+    }
+
+    .swiper-pagination-custom .swiper-pagination-bullet-active {
+        @apply bg-white opacity-100;
+        /* Active bullet style */
+    }
+
+
+
 }
