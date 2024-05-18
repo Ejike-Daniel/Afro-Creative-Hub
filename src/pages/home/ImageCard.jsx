@@ -17,7 +17,7 @@ const ImageCard = () => {
     <div className="w-full flex flex-col items-center gap-8">
       <section className="grid grid-cols-3 grid-rows-4 gap-6">
         {!isBrowseMore &&
-          data.map(({ img, id, likes, views }, index) => (
+          data.slice(12).map(({ img, id, likes, views }, index) => (
             <div key={index}>
               <div className="flex flex-col gap-6 items-center justify-center py-2">
                 <div className="w-full">
