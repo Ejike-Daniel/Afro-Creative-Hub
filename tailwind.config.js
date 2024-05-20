@@ -29,7 +29,7 @@ export default {
             "tealrectangle": "url('/src/assets/Rectangle.png')",
             "bgmixedright": "url('/src/assets/Bgmixedright.png')",
             "bgmixedleft": "url('/src/assets/Bgmixedleft.png')",
-            bgImg: `url('./assets/Group.png')`,
+            "bgImg": `url('./assets/Group.png')`,
           }
 },
   },
