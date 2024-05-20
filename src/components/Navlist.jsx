@@ -21,7 +21,7 @@ const Navlist = ({ hideNav }) => {
               to={path}
               className={({ isActive }) =>
                 isActive
-                  ? " md:bg-lightTan text-midnight px-6  md:py-6 "
+                  ? " md:bg-lightTan text-midnight px-6  md:py-[1.5rem] "
                   : " hover:text-midnight"
               }
             >
