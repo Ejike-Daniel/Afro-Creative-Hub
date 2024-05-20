@@ -31,6 +31,7 @@ export default {
         bgImg: `url('./assets/Group.png')`,
       },
     },
+
   },
   plugins: [],
 };
