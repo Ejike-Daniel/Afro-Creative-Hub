@@ -6,20 +6,20 @@ import Images from "./Images";
 const Analysis = () => {
   return (
 
-    <div className=" flex flex-col lg:flex-row lg:mb-[3rem] gap-[6rem] lg:gap-0 ">
-      <div className=" py-[4rem] flex bg-earlyDawn rounded-r-[10rem] w-[95%] lg:w-[95%] md:px-[4rem] md:py-[8rem] lg:h-[30rem] justify-between my-auto ">
+    <div className=" flex flex-col lg:flex-row lg:mb-[3rem] gap-[6rem] lg:gap-0  ">
+      <div className=" px-4 py-[4rem] flex bg-earlyDawn rounded-r-[10rem] w-[95%] lg:w-[95%] md:px-[4rem] md:py-[8rem] lg:h-[30rem] justify-between my-auto ">
         <div className=" flex justify-between w-[100%] my-auto mx-auto ">
         <div className=" flex flex-col gap-4">
           <h3 className=" font-bold text-duckyYellow text-4xl text-center">7</h3>
-          <p className=" text-center font-bold">Years of Service</p>
+          <p className=" text-[0.8rem] md:text-[2rem] text-center font-bold">Years of Service</p>
         </div>
         <div className=" flex flex-col gap-4">
         <h3  className=" font-bold text-duckyYellow text-4xl text-center">99%</h3>
-          <p className=" text-center font-bold">Client Retention</p>
+          <p className=" text-[0.8rem] md:text-[2rem] text-center font-bold">Client Retention</p>
         </div>
         <div className=" flex flex-col gap-4">
         <h3  className=" font-bold text-duckyYellow text-4xl text-center">221+</h3>
-          <p className=" text-center font-bold">Satisfied Clients</p>
+          <p className=" text-[0.8rem] md:text-[2rem] text-center font-bold">Satisfied Clients</p>
         </div>
         </div>
         
