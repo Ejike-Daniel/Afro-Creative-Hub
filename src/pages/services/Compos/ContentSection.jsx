@@ -1,4 +1,4 @@
-import Contents from "./Analysis";
+// import Contents from "./Analysis";
 
 const ContentSection = () => {
   return (

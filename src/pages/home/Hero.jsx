@@ -6,7 +6,7 @@ import panaImg from "../../assets/pana.png";
 const Hero = () => {
   return (
     <section className="w-full pt-16 py-20 bg-duckyYellow  flex justify-center flex-col relative ">
-      <div className="w-[25%] absolute top-14 left-0">
+      <div className="w-[23%] absolute top-12 left-0">
         <img src={broImg} alt={broImg} className=" hidden lg:block  " />
       </div>
 
@@ -23,7 +23,7 @@ const Hero = () => {
         </p>
         <Button className={"mb-7 bg-tealishGreen"}>Hire a Freelancer</Button>
       </div>
-      <div className="w-[25%] absolute bottom-2 right-0 ">
+      <div className="w-[23%] absolute bottom-1 right-0 ">
         <img src={panaImg} alt={panaImg} className=" hidden lg:block  " />
       </div>
 
