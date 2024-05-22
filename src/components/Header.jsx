@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <header
-      className={`w-full px-8 lg:px-16  flex items-center justify-between py-4 md:py-4 ${
+      className={`w-full px-8 lg:px-16  flex items-center justify-between py-4 md:py-4 shadow-lg ${
         isFixed ? "md:fixed md:top-0 md:z-50 md:bg-white shadow-lg" : ""
       }`}
     >
