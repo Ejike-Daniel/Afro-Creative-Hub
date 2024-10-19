@@ -26,7 +26,10 @@ const Accordion = () => {
         </div>
         <p className="font-medium">FAQ QUESTION</p>
       </div>
-      <h3 className="text-2xl font-semibold whitespace-nowrap"> Frequently Asked Question</h3>
+      <h3 className="text-2xl font-semibold whitespace-nowrap">
+        {" "}
+        Frequently Asked Question
+      </h3>
       <div className=" mt-5 lg:mt-10">
         {faqData.map(({ question, answer }, index) => (
           <div key={index} className="py-4 border-t-2 border-duckyYellow">
@@ -52,7 +55,7 @@ const Accordion = () => {
                   : "grid-rows-[0fr] opacity-0"
               }`}
             >
-              <p>{answer}</p>
+              <p>{answer}.</p>
             </div>
           </div>
         ))}
