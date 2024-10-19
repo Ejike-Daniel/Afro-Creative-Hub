@@ -1,5 +1,6 @@
 import { FaStar } from "react-icons/fa";
 import data from "./ReviewData";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

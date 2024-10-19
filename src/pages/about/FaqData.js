@@ -1,15 +1,15 @@
 const faqData = [
   {
     question: "Creative or Tech Hubs? ",
-    answer: "I prefer Tech Hubs ",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
   },
   {
     question: "Interns or Freelancers? ",
-    answer: "Freelancer ",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
   },
   {
     question: "Frontend or Backend? ",
-    answer: "I prefer both  ",
+    answer: "  Lorem ipsum dolor sit amet consectetur adipisicing elit.  ",
   },
 ];
 export default faqData;
